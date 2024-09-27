@@ -12,15 +12,23 @@ public class CaldeiraChocolate {
     }
 
     public void encher() {
-
+        if(vazia) {
+            vazia = false;
+            System.out.println("A CALDEIRA FOI CHEIA");
+        }
+        else {
+            System.out.println("A CALDEIRA JA ESTA CHEIA");
+        }
     }
 
     public void ferver() {
+        if(!fervida && !vazia) {
 
+        }
     }
 
     public void drenar() {
-        
+
     }
 
 
